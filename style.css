@@ -1,0 +1,76 @@
+
+
+/*syntax = selector {declaration (property: value);}
+ example h1 {color: #ff0000;} */
+
+/* More about Web Safe Fonts - https://websitesetup.org/web-safe-fonts-html-css/ */
+/* Bonus - how do we import a font from Google Fonts? - fonts.google.com */
+
+@import <link href="https://fonts.googleapis.com/css?family=Monoton|Sigmar+One&display=swap" rel="stylesheet">;
+
+
+/*------------------ */
+/* General Style */
+/*------------------ */
+
+/* background-color: c3fdff; //// color: #000; */
+
+body {
+  /* padding, background-color */
+  padding: 50px;
+  padding-top:  40px;
+  background-color: #c3fdff;
+  font-family: 'Josefin Slab', serif;
+font-family: 'Handlee', cursive;
+}
+
+/*style h1, h2, h3, h4, h5, h6 */
+h1 {
+  text-decoration: underline;
+
+}
+
+.img-eye{
+  width: 500px;
+
+}
+
+p {
+  /* color (font), font-size */
+
+
+  /* margin - how do we add more space between each paragraph? */
+}
+
+
+/* link ----> #ffeb3b -> on hover: #ffff72*/
+a {
+  /* color, text-decoration */
+  text-decoration: none;
+}
+
+/* for more about :hover selectors: https://www.w3schools.com/cssref/sel_hover.asp */
+ a: hover }
+
+/*------------------ */
+/* Start Page */
+/*------------------ */
+#storytitle {
+   color: red;
+  }
+   /* Add a class to our title */
+
+
+/*------------------ */
+/* Choices */
+/*------------------ */
+.choices {
+  .choices-light{
+
+  }
+
+}
+
+/* Choice 1 - background-color: #c43e00, color: #fff;*/
+ background-color: #c43e00
+/* Choice 2 - background-color: #003b8e, color: #fff;*/
